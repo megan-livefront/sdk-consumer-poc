@@ -1,0 +1,27 @@
+{
+  "name": "optum-perks-web-oc-sdk",
+  "version": "0.0.24",
+  "description": "Test Online Care SDK",
+  "repository": "https://github.com/rvohealth/Perks-Web.git",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "style": "dist/bundle.css",
+  "license": "MIT",
+  "author": "Livefront",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --env prod"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.1.0",
+    "querystring-browser": "^1.0.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "yalc": "1.0.0-pre.53"
+  },
+  "yalcSig": "bb3b6838c2291bdc24d188bc9ebf1c3a"
+}

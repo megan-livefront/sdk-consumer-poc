@@ -1,10 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { mySdkFunction, OCTestComponent } from "optum-perks-web-oc-sdk";
+import "optum-perks-web-oc-sdk/dist/bundle.css";
 
 export default function Home() {
+  mySdkFunction();
+
+  const testProps = {
+    heading: "Testing",
+  };
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <OCTestComponent {...testProps} />
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -13,6 +22,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <h2>hello</h2>
         <ol>
           <li>
             Get started by editing <code>src/app/page.tsx</code>.

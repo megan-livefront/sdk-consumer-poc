@@ -3496,21 +3496,20 @@ __metadata:
 
 "optum-perks-web-oc-sdk@file:.yalc/optum-perks-web-oc-sdk::locator=sdk-test-consumer%40workspace%3A.":
   version: 0.0.24
-  resolution: "optum-perks-web-oc-sdk@file:.yalc/optum-perks-web-oc-sdk#.yalc/optum-perks-web-oc-sdk::hash=47085a&locator=sdk-test-consumer%40workspace%3A."
+  resolution: "optum-perks-web-oc-sdk@file:.yalc/optum-perks-web-oc-sdk#.yalc/optum-perks-web-oc-sdk::hash=5f5113&locator=sdk-test-consumer%40workspace%3A."
   dependencies:
     "@opentelemetry/api": "npm:^1.1.0"
     next: "npm:15.1.2"
     next-i18next: "npm:^15.4.1"
     querystring-browser: "npm:^1.0.4"
+    react: "npm:^19.0.0"
+    react-dom: "npm:^19.0.0"
     react-shadow: "npm:20.6.0"
     resolve-url-loader: "npm:5.0.0"
     webpack: "npm:^5.94.0"
     webpack-cli: "npm:^5.1.4"
     yalc: "npm:1.0.0-pre.53"
-  peerDependencies:
-    react: ^19.0.0
-    react-dom: ^19.0.0
-  checksum: 10c0/708e682420befa8cd027326b742498a0fb7421ee720cce9b9b24faa45f4911568711c62e9485e58e08b3d603062b08148032b027a97236d94f6186c20284567c
+  checksum: 10c0/5af6892f72db5db83a48eccc1046bc1f372c45587bd2f2909d6a5a872259fe232f52738af8b0d3707d5afec111e5679143155da4d4ed00a6c095cd20633d5ec5
   languageName: node
   linkType: hard
 

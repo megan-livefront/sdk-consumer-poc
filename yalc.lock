@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "optum-perks-web-oc-sdk": {
-      "signature": "bb3b6838c2291bdc24d188bc9ebf1c3a",
+      "signature": "6d37ef313beba8fc266e5764228a50dc",
       "file": true
     }
   }

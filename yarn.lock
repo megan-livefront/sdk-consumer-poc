@@ -5,7 +5,7 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@babel/runtime@npm:^7.23.2":
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.25.0":
   version: 7.26.9
   resolution: "@babel/runtime@npm:7.26.9"
   dependencies:
@@ -2620,6 +2620,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"html-parse-stringify@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "html-parse-stringify@npm:3.0.1"
+  dependencies:
+    void-elements: "npm:3.1.0"
+  checksum: 10c0/159292753d48b84d216d61121054ae5a33466b3db5b446e2ffc093ac077a411a99ce6cbe0d18e55b87cf25fa3c5a86c4d8b130b9719ec9b66623259000c72c15
+  languageName: node
+  linkType: hard
+
 "humps@npm:^2.0.1":
   version: 2.0.1
   resolution: "humps@npm:2.0.1"
@@ -3541,11 +3550,12 @@ __metadata:
 
 "optum-perks-web-oc-sdk@file:.yalc/optum-perks-web-oc-sdk::locator=sdk-test-consumer%40workspace%3A.":
   version: 0.0.24
-  resolution: "optum-perks-web-oc-sdk@file:.yalc/optum-perks-web-oc-sdk#.yalc/optum-perks-web-oc-sdk::hash=1af52a&locator=sdk-test-consumer%40workspace%3A."
+  resolution: "optum-perks-web-oc-sdk@file:.yalc/optum-perks-web-oc-sdk#.yalc/optum-perks-web-oc-sdk::hash=b68b62&locator=sdk-test-consumer%40workspace%3A."
   dependencies:
     "@opentelemetry/api": "npm:^1.1.0"
     next-i18next: "npm:^15.4.1"
     querystring-browser: "npm:^1.0.4"
+    react-i18next: "npm:^15.2.0"
     react-shadow: "npm:20.6.0"
     resolve-url-loader: "npm:5.0.0"
     webpack: "npm:^5.94.0"
@@ -3553,10 +3563,11 @@ __metadata:
     yalc: "npm:1.0.0-pre.53"
   peerDependencies:
     "@headlessui/react": ^2.2.0
-    next: ^15.1.2
+    next: 15.1.2
     react: ^19.0.0
     react-dom: ^19.0.0
-  checksum: 10c0/bf5dcbd9dd4ae95c4934cde0ceed8c821794060580bc118f8cfd0e16043397d950d552c0d18413ca497a0fa0d6fdb9109e2b22c36e166d74be5b8ccf96ccfd31
+    react-error-boundary: ^5.0.0
+  checksum: 10c0/dd2134cabc6db8052d915b887fa705426f674a787f0f66c5b2aeba97a704cdaab6c6d045d392d80862b2072edbe89b88e40ede12e0e93c941f0f807600bc8dd1
   languageName: node
   linkType: hard
 
@@ -3759,6 +3770,35 @@ __metadata:
   peerDependencies:
     react: ^19.0.0
   checksum: 10c0/a36ce7ab507b237ae2759c984cdaad4af4096d8199fb65b3815c16825e5cfeb7293da790a3fc2184b52bfba7ba3ff31c058c01947aff6fd1a3701632aabaa6a9
+  languageName: node
+  linkType: hard
+
+"react-error-boundary@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "react-error-boundary@npm:5.0.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.12.5"
+  peerDependencies:
+    react: ">=16.13.1"
+  checksum: 10c0/38da5e7e81016a4750d3b090e3c740c2c1125c0bb9de14e1ab92ee3b5190d34517c199935302718a24aa35d3f89081412b3444edc23f63729bde2e862a2fbfec
+  languageName: node
+  linkType: hard
+
+"react-i18next@npm:^15.2.0":
+  version: 15.4.1
+  resolution: "react-i18next@npm:15.4.1"
+  dependencies:
+    "@babel/runtime": "npm:^7.25.0"
+    html-parse-stringify: "npm:^3.0.1"
+  peerDependencies:
+    i18next: ">= 23.2.3"
+    react: ">= 16.8.0"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 10c0/4f421a4db8255766bdbc8cc262b03c75bed4d92e5f7cc79dee99236c3239eb86a4d100fcbc6c2c735fa0207de23c09516450c8d970d193b0f7c2a3daaa51e261
   languageName: node
   linkType: hard
 
@@ -4042,6 +4082,7 @@ __metadata:
     optum-perks-web-oc-sdk: "file:.yalc/optum-perks-web-oc-sdk"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
+    react-error-boundary: "npm:^5.0.0"
     typescript: "npm:^5"
   languageName: unknown
   linkType: soft
@@ -4676,6 +4717,13 @@ __metadata:
   dependencies:
     punycode: "npm:^2.1.0"
   checksum: 10c0/4ef57b45aa820d7ac6496e9208559986c665e49447cb072744c13b66925a362d96dd5a46c4530a6b8e203e5db5fe849369444440cb22ecfc26c679359e5dfa3c
+  languageName: node
+  linkType: hard
+
+"void-elements@npm:3.1.0":
+  version: 3.1.0
+  resolution: "void-elements@npm:3.1.0"
+  checksum: 10c0/0b8686f9f9aa44012e9bd5eabf287ae0cde409b9a2854c5a2335cb83920c957668ac5876e3f0d158dd424744ac411a7270e64128556b451ed3bec875ef18534d
   languageName: node
   linkType: hard
 
